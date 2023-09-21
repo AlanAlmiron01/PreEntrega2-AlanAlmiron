@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #246D4A;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Sección del héroe */
+.hero {
+    background-image: url('camping-hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #246D4A;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Sección "Sobre Nosotros" */
+.about {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Sección de Actividades */
+.activities {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+}
+
+.activities h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.activity {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.activity img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #246D4A;
+    border-radius: 5px;
+}
+
+.activity h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.activity p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para enlace de política de privacidad */
+footer a:hover {
+    text-decoration: underline;
+}
